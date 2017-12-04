@@ -1,0 +1,257 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif; }
+
+#top_section {
+  width: 1500px;
+  height: 65px;
+  background-color: orange;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif; }
+  #top_section ul {
+    background-color: orange;
+    padding-left: 175px; }
+    #top_section ul li {
+      font-size: 20px;
+      top: 0px;
+      margin: 0px 20px;
+      display: inline-block;
+      color: black; }
+      #top_section ul li img {
+        position: relative;
+        top: 32px;
+        margin-left: 15px;
+        width: 200px;
+        height: 75px; }
+      #top_section ul li a {
+        text-decoration: none;
+        color: black; }
+      #top_section ul li a::after {
+        color: white;
+        margin: 0px 10px;
+        content: '|'; }
+
+#dog {
+  text-align: center;
+  width: 1500px;
+  height: 100px; }
+  #dog #doggy {
+    margin-top: 40px;
+    border-radius: 5px; }
+
+#multiple {
+  float: left;
+  width: 1500px;
+  margin-top: 550px; }
+  #multiple #four_images {
+    margin-left: 180px;
+    width: 750px; }
+    #multiple #four_images .box {
+      width: 350px;
+      height: 250px;
+      float: left; }
+    #multiple #four_images .small_images {
+      float: left;
+      width: 150px;
+      height: 250px; }
+    #multiple #four_images .heading {
+      margin-top: 40px;
+      float: left;
+      width: 175px;
+      height: 25px;
+      font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+      font-size: 20px;
+      padding-bottom: 0px; }
+    #multiple #four_images .para {
+      float: left;
+      width: 175px;
+      height: 200px;
+      font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+      font-size: 15px;
+      padding-top: 0px;
+      margin-top: 0px; }
+      #multiple #four_images .para a {
+        text-decoration: none;
+        color: orange; }
+  #multiple #right_section {
+    width: 425px;
+    height: 525px;
+    margin-left: 900px; }
+    #multiple #right_section #search_section {
+      width: 427px;
+      height: 75px;
+      border-radius: 5px;
+      background-color: orange;
+      font-size: 20px;
+      color: white; }
+      #multiple #right_section #search_section input[type=text] {
+        display: inline;
+        margin-left: 5px;
+        margin-top: 6px;
+        border-radius: 5px;
+        width: 305px;
+        height: 29px;
+        vertical-align: bottom;
+        text-indent: 10px; }
+      #multiple #right_section #search_section img {
+        display: inline;
+        margin-top: 8px;
+        margin-left: 5px;
+        border-radius: 5px;
+        width: 95px;
+        height: 35px;
+        vertical-align: bottom; }
+      #multiple #right_section #search_section input[type=radio] {
+        margin-top: 9px;
+        width: 20px;
+        margin-right: 0px; }
+      #multiple #right_section #search_section span {
+        margin-left: 0px;
+        font-size: 20px;
+        margin-right: 20px; }
+    #multiple #right_section #mid_section {
+      margin-top: 10px;
+      width: 420px;
+      height: 60px;
+      font-size: 20px; }
+      #multiple #right_section #mid_section #background1 {
+        background-image: url("tab1.gif");
+        padding-top: 10px;
+        padding-right: 0px;
+        margin-right: 0px;
+        display: inline-block;
+        width: 200px;
+        height: 50px;
+        background-size: 200px 60px;
+        background-repeat: no-repeat; }
+        #multiple #right_section #mid_section #background1 .shopping {
+          padding-left: 12px;
+          font-weight: bolder;
+          font-size: 22px; }
+      #multiple #right_section #mid_section #background2 {
+        background-image: url("tab2.gif");
+        padding-top: 10px;
+        padding-right: 0px;
+        margin-right: 0px;
+        display: inline-block;
+        width: 200px;
+        height: 50px;
+        background-size: 200px 60px;
+        background-repeat: no-repeat; }
+        #multiple #right_section #mid_section #background2 .discount {
+          padding-left: 9px;
+          font-weight: bolder;
+          font-size: 22px; }
+    #multiple #right_section #guide {
+      margin-top: 0px;
+      width: 420px;
+      height: 370px;
+      border-radius: 5px;
+      background-color: #ffdb99;
+      padding: 5px; }
+      #multiple #right_section #guide .box2 {
+        display: block;
+        margin: 10px;
+        width: 400px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: #ffb732;
+        padding-top: 5px; }
+        #multiple #right_section #guide .box2 p {
+          margin-top: 0px;
+          margin-left: 5px;
+          color: darkgray;
+          font-size: 20px; }
+          #multiple #right_section #guide .box2 p a {
+            position: relative;
+            font-size: 20px;
+            text-decoration: none;
+            color: firebrick; }
+
+#three_images {
+  margin-top: 1100px;
+  width: 1500px;
+  height: 100px;
+  background-color: lightgray; }
+  #three_images div {
+    margin-left: 175px; }
+  #three_images .tiny {
+    float: left;
+    width: 352px;
+    height: 75px;
+    margin: 12px 20px;
+    border-radius: 5px; }
+
+#pet_lovers {
+  margin-top: 0px;
+  width: 1500px;
+  height: 200px;
+  background-color: firebrick; }
+  #pet_lovers div {
+    margin-left: 195px;
+    margin-top: 0px; }
+    #pet_lovers div .pets {
+      float: left;
+      width: 284px;
+      height: 175px;
+      margin: 0px; }
+    #pet_lovers div .description {
+      float: left;
+      position: absolute;
+      margin-top: 65px;
+      left: 50px; }
+      #pet_lovers div .description h3 {
+        color: chartreuse;
+        font-size: 20px;
+        padding-bottom: 0;
+        margin-bottom: 0; }
+      #pet_lovers div .description p {
+        width: 225px;
+        color: white;
+        font-size: 15px;
+        padding-top: 0;
+        margin-top: 0; }
+        #pet_lovers div .description p a {
+          text-decoration: none;
+          color: orange;
+          font-size: 15px; }
+
+#copyright {
+  width: 1500px;
+  height: 35px;
+  background-color: orange;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  font-size: 25px;
+  color: brown; }
+
+.pullleft1 {
+  left: 320px !important; }
+
+.pullleft2 {
+  left: 610px !important; }
+
+.pullleft3 {
+  left: 890px !important; }
+
+#lefter1 {
+  margin-left: 200px; }
+
+#lefter2 {
+  margin-left: 202px; }
+
+#lefter3 {
+  margin-left: 258px; }
+
+#lefter4 {
+  margin-left: 224px; }
+
+#lefter5 {
+  margin-left: 247px; }
+
+#lefter6 {
+  margin-left: 175px; }
+
+#lefter7 {
+  margin-left: 228px; }
+
+#lefter8 {
+  margin-left: 175px; }

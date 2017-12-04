@@ -1,0 +1,63 @@
+
+$color: orange;
+$width: 1500px;
+$font_family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+
+
+@mixin box() {
+	width: 350px;
+	height: 250px;
+	float: left;
+}
+
+@mixin small_images() {
+	float: left;
+	width: 150px;
+	height: 250px;
+}
+
+@mixin heading() {
+	margin-top: 40px;
+	float: left;
+	width: 175px;
+	height: 25px;
+	font-family: $font_family;
+	font-size: 20px;
+	padding-bottom: 0px;
+}
+
+@mixin para() {
+	float: left;
+	width: 175px;
+	height: 200px;
+	font-family: $font_family;
+	font-size: 15px;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+@mixin tiny() {
+	float: left;
+	width: 352px;
+	height: 75px;
+	margin: 12px 20px;
+	border-radius: 5px;
+}
+
+@mixin pets() {
+	float: left;
+	width: 284px;
+	height: 175px;
+	margin: 0px;
+}
+
+@mixin background() {
+	padding-top: 10px;
+	padding-right: 0px;
+	margin-right: 0px;
+	display: inline-block;
+	width: 200px;
+	height: 50px;
+	background-size: 200px 60px;
+	background-repeat: no-repeat;
+}
